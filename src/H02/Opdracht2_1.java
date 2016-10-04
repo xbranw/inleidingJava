@@ -1,21 +1,22 @@
-package H01;
+package H02;
 
 /**
  * Created by Brandon on 4-10-2016.
  */
-//Voorbeeld 2.2
+
+
 
 import java.awt.*;
 import java.applet.*;
 
-public class Test extends Applet {
+public class Opdracht2_1 extends Applet {
 
     public void init() {
-        setBackground(Color.magenta);
+        setBackground(Color.BLUE);
     }
 
     public void paint(Graphics g) {
         g.setColor(Color.yellow);
-        g.drawString("Welcome to Java!!", 50, 60 );
+        g.drawString("Brandon", 50, 60 );
     }
 }
